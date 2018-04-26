@@ -1,0 +1,43 @@
+
+
+
+
+ul{
+    margin-top: 20px;
+    padding: 10px;
+}
+li{
+    text-decoration: none;
+    display: inline-block;
+    background-color: dimgrey;
+    margin-top: 10px;
+/*    padding:10px;*/
+}
+body{
+    background-color: aliceblue;
+}
+ .container img{
+        padding-top: 10px;
+    }
+
+@media only screen and (max-width : 768px) {
+    #id{
+       
+        padding-left: 50vh;
+    }
+    body{
+        background-color: greenyellow;
+    }
+    .container img{
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width : 992px) {
+    body{
+        background-color: red;
+    }
+    .container img{
+        padding-top: 10px;
+    }
+}
